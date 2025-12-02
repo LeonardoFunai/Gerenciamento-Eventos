@@ -26,19 +26,19 @@ O **Gerenciador de Eventos** é uma aplicação web robusta desenvolvida em Lara
 
 ### 🏠 Dashboard Inicial
 *Uma landing page visualmente agradável com acesso rápido às funcionalidades principais.*
-![Página Inicial](screenshots/inicio.png)
+![Página Inicial](fotos/inicio.png)
 
 ### 📋 Listagem e Filtragem
 *Tabela responsiva com sistema de busca avançada (por período, tipo e nome) e paginação.*
-![Listagem de Eventos](screenshots/lista.png)
+![Listagem de Eventos](fotos/lista.png)
 
 ### 📝 Cadastro de Evento
 *Formulário estilizado com validação de campos obrigatórios e máscaras.*
-![Cadastro](screenshots/cadastrar.png)
+![Cadastro](fotos/cadastrar.png)
 
 ### 🔍 Detalhes do Evento
 *Visualização completa das informações, incluindo link direto para o Google Maps.*
-![Visualizar Evento](screenshots/visualizar.png)
+![Visualizar Evento](fotos/visualizar.png)
 
 ---
 
@@ -191,4 +191,5 @@ Agora você tem tudo pronto para rodar o **Event Manager - Laravel** 🚀
 Caso tenha dúvidas ou precise de suporte, sinta-se à vontade para perguntar!  
 
 🔥 **Divirta-se explorando e aprimorando o projeto!** 🎉
+
 
