@@ -1,54 +1,79 @@
-# 🎉 Gerenciador de Eventos - Laravel
+# 🎉 Gerenciador de Eventos (Desafio Proponto)
 
-Sistema completo para **gerenciamento de eventos** desenvolvido com **Laravel**.  
-Com este sistema, é possível **criar, visualizar, editar e excluir eventos**, além de contar com **autenticação de usuários, validação de formulários** e uma **interface responsiva e estilizada com Bootstrap**.
+![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-11-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+
+> 🏆 **Status:** Projeto Aprovado!
+> Este sistema foi desenvolvido como parte do processo seletivo para a vaga de Estágio na **Proponto**, resultando na minha contratação. O objetivo foi demonstrar conhecimentos em arquitetura MVC, CRUD, validações e construção de interfaces responsivas.
 
 ---
 
-## 🚀 Funcionalidades Principais
+## 📖 Sobre o Projeto
 
-✅ **Cadastro de eventos** com título, data, descrição e mais.  
-✅ **Edição e exclusão** de eventos cadastrados.  
-✅ **Listagem detalhada** dos eventos disponíveis.  
-✅ **Sistema de autenticação** seguro para usuários.  
-✅ **Validação de dados** nos formulários de entrada.  
-✅ **Interface moderna e responsiva** com Bootstrap.  
-✅ **Banco de dados MySQL** para armazenamento confiável.  
+O **Gerenciador de Eventos** é uma aplicação web robusta desenvolvida em Laravel que permite o controle completo do ciclo de vida de eventos. O sistema foi projetado para ser intuitivo e funcional, garantindo que o usuário possa organizar eventos sociais, corporativos e esportivos com facilidade.
+
+### 🎯 Destaques Técnicos
+* **Arquitetura MVC:** Separação clara entre Lógica (Controllers), Dados (Models) e Visualização (Blade Views).
+* **Validação Avançada:** Uso de `FormRequests` para garantir a integridade dos dados no back-end.
+* **Filtros Dinâmicos:** Implementação de query scopes para filtrar eventos por nome, tipo e intervalo de datas.
+* **UX/UI:** Interface limpa construída com Bootstrap 5 e CSS personalizado.
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Dashboard Inicial
+*Uma landing page visualmente agradável com acesso rápido às funcionalidades principais.*
+![Página Inicial](screenshots/inicio.png)
+
+### 📋 Listagem e Filtragem
+*Tabela responsiva com sistema de busca avançada (por período, tipo e nome) e paginação.*
+![Listagem de Eventos](screenshots/lista.png)
+
+### 📝 Cadastro de Evento
+*Formulário estilizado com validação de campos obrigatórios e máscaras.*
+![Cadastro](screenshots/cadastrar.png)
+
+### 🔍 Detalhes do Evento
+*Visualização completa das informações, incluindo link direto para o Google Maps.*
+![Visualizar Evento](screenshots/visualizar.png)
+
+---
+
+## 🚀 Funcionalidades
+
+✅ **CRUD Completo:** Criação, Leitura, Atualização e Exclusão de eventos.
+✅ **Sistema de Filtros:**
+   - Busca textual por nome do evento.
+   - Filtro por categoria (Social, Esportivo, Cultural, etc.).
+   - Filtro por intervalo de datas (Data inicial e final).
+✅ **Integração com Mapas:** Campo dedicado para links do Google Maps.
+✅ **Feedback ao Usuário:** Alertas visuais (Flash Messages) para confirmar ações de sucesso ou erro.
+✅ **Responsividade:** Layout adaptável para desktop e mobile.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
-
-🔹 **Backend:**  
-- Laravel (Framework PHP)  
-- MySQL (Banco de dados)  
-- PHP 8+  
-
-🔹 **Frontend:**  
-- Bootstrap (Estilização e responsividade)  
-- JavaScript (Interatividade)  
-- HTML/CSS  
-
-🔹 **Outras Ferramentas:**  
-- Composer (Gerenciador de dependências do PHP)  
-- NPM (Gerenciador de pacotes para o frontend)  
+* **Linguagem:** PHP 8.2+
+* **Framework:** Laravel 11
+* **Front-end:** Blade Templates, Bootstrap 5, Sass
+* **Build Tool:** Vite
+* **Banco de Dados:** MySQL
+* **Gerenciador de Pacotes:** Composer & NPM
 
 ---
 
-## 📥 Como Instalar e Rodar o Projeto
+## 📥 Instalação e Configuração
 
-Siga o guia abaixo para configurar o sistema na sua máquina local.
+Siga os passos abaixo para rodar o projeto em seu ambiente local:
 
-### 🔹 1️⃣ Clone o Repositório  
-
-Abra o terminal e execute:  
-
+### 1️⃣ Clone o Repositório
 ```bash
-git clone https://github.com/seu-usuario/event-manager-laravel.git
-cd event-manager-laravel
-```
+git clone [https://github.com/seu-usuario/gerenciamento-eventos.git](https://github.com/seu-usuario/gerenciamento-eventos.git)
+cd gerenciamento-eventos
 
 ### 🔹 2️⃣ Instale as Dependências  
 
@@ -166,3 +191,4 @@ Agora você tem tudo pronto para rodar o **Event Manager - Laravel** 🚀
 Caso tenha dúvidas ou precise de suporte, sinta-se à vontade para perguntar!  
 
 🔥 **Divirta-se explorando e aprimorando o projeto!** 🎉
+
